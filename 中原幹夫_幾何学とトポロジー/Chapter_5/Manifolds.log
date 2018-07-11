@@ -2,8 +2,11 @@ This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.sjis) (TeX Live 2018/
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**c:/Users/ryoi0/Documents/notebook/阿部龍蔵_統計力学/第11章/Chapter_11.tex
-(c:/Users/ryoi0/Documents/notebook/阿部龍蔵_統計力学/第11章/Chapter_11.tex
+**c:/Users/ryoi0/Documents/notebook/中原幹夫_幾何学とトポロジー/Chapter_5/Manif
+olds.tex
+
+(c:/Users/ryoi0/Documents/notebook/中原幹夫_幾何学とトポロジー/Chapter_5/Manifo
+lds.tex
 pLaTeX2e <2018-05-20> (based on LaTeX2e <2018-04-01> patch level 5)
 (c:/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
@@ -802,27 +805,27 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) (./Chapter_11.aux)
-\openout1 = `Chapter_11.aux'.
+))) (./Manifolds.aux)
+\openout1 = `Manifolds.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
@@ -859,7 +862,7 @@ LaTeX Font Info:    ... okay on input line 27.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box103
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 28.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -869,13 +872,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count180
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
-(./Chapter_11.out) (./Chapter_11.out)
+(./Manifolds.out) (./Manifolds.out)
 \@outlinefile=\write5
-\openout5 = `Chapter_11.out'.
+\openout5 = `Manifolds.out'.
 
 
 (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
@@ -901,75 +904,33 @@ Dictionary: translator-numbers-dictionary, Language: English
 (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dictionary-
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./Chapter_11.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
-
-(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
-
-(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 27.
-
-(c:/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
-
-] (./Chapter_11.toc) [2
-
-] [3
-
-] (./Chapter_11.toc) [4
-
-] [5
-
-] (./Chapter_11.toc) [6
-
-] [7
-
-]
-(./Chapter_11.toc) [8
-
-] [9
-
-] [10
-
-] (./Chapter_11.toc) [11
-
-] [12
-
-] (./Chapter_11.toc) [13
-
-] [14
+) (./Manifolds.nav) [1
 
 ]
 \tf@nav=\write6
-\openout6 = `Chapter_11.nav'.
+\openout6 = `Manifolds.nav'.
 
 \tf@toc=\write7
-\openout7 = `Chapter_11.toc'.
+\openout7 = `Manifolds.toc'.
 
 \tf@snm=\write8
-\openout8 = `Chapter_11.snm'.
+\openout8 = `Manifolds.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
- (./Chapter_11.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
-Package rerunfilecheck Info: File `Chapter_11.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+ (./Manifolds.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 30.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
+Package rerunfilecheck Info: File `Manifolds.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20002 strings out of 493273
- 395452 string characters out of 6148004
- 484893 words of memory out of 5000000
- 23452 multiletter control sequences out of 15000+600000
- 20975 words of font info for 83 fonts, out of 8000000 for 9000
+ 19579 strings out of 493273
+ 386044 string characters out of 6148004
+ 475840 words of memory out of 5000000
+ 23081 multiletter control sequences out of 15000+600000
+ 10105 words of font info for 41 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 56i,22n,64p,853b,712s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,59p,865b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Chapter_11.dvi (14 pages, 95916 bytes).
+Output written on Manifolds.dvi (1 page, 2752 bytes).
