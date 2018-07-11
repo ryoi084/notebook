@@ -1,0 +1,91 @@
+\documentclass[dvipdfmx,11pt]{beamer}
+\usetheme{Warsaw}
+\usecolortheme[RGB={32, 32, 96}]{structure}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{navigation symbols}{}
+\AtBeginSection[]{
+    \frame{\tableofcontents[currentsection, hideallsubsections]}        %目次スライド
+}
+
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{bm}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{mathrsfs}
+
+\usepackage{grffile}
+\usepackage{here}
+\usepackage{tikz}
+
+\title{第11章\\グリーン関数に対する摂動論}
+\author{Ryoi Ohashi}
+\date{July 16, 2018}
+\institute{Department of Applied Physics, Nagoya University}
+
+
+\begin{document}
+
+% \frame{\titlepage}
+\begin{frame}[plain]
+    \maketitle
+\end{frame}
+
+\begin{frame}\frametitle{目次}
+    \setcounter{tocdepth}{1}
+    \tableofcontents
+\end{frame}
+
+\begin{frame}\frametitle{復習}
+    ハミルトニアンが$H=H_0+H^{'}$, $\mathscr{H}=H+\mu N$のとき
+    \begin{block}{1体のグリーン関数}
+        \begin{align}
+            G_r[u,u'] = -<TA_r(u)A_r^{\dagger}(u')>
+        \end{align}
+    \end{block}
+    \setcounter{equation}{2}
+    \begin{itemize}
+        \item $r$は状態を表す指数\\
+        \item $A_r^{(\dagger)}(u)$は$a_r^{(\dagger)}$のハイゼンベルグ表示\\
+        \item $<\cdots>$は大正準集団に対する平均\\
+        \begin{align}
+            <\cdots>={\rm tr}(\cdots e^{-\beta\mathscr{H}})/{\rm tr}(e^{-\beta\mathscr{H}})
+        \end{align}
+        
+    \end{itemize}
+\end{frame}
+
+\section{$T$指数関数および$T$記号の性質}
+\begin{frame}
+    hello
+\end{frame}
+\subsection{$T$記号の性質}
+
+\section{グリーン関数に対する表式}
+\begin{frame}
+    hello
+\end{frame}
+
+\section{グリーン関数に対するファインマン図形}
+\begin{frame}
+    hello
+\end{frame}
+
+\subsection{一般項に対する考察}
+\begin{frame}
+    hello
+\end{frame}
+\subsection{$G_r(i\omega_l)$の計算の規則}
+
+\section{自己エネルギー(self-energy)}
+\begin{frame}
+    hello
+\end{frame}
+
+\section{電子ガスへの応用}
+\subsection{リング近似との関係}
+\begin{frame}
+    hello
+\end{frame}
+
+\end{document}
