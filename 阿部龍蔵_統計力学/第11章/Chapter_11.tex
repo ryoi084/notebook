@@ -13,6 +13,7 @@
 \usepackage{multicol}
 \usepackage{framed}
 \usepackage{mathrsfs}
+\usepackage{amsfonts}
 
 \usepackage{grffile}
 \usepackage{here}
@@ -32,7 +33,7 @@
 
 \begin{frame}{目的}
     \begin{itemize}
-        \item グリーン関数を用いた摂動展開手法を学ぶ
+        \item グリーン関数を用いた\textcolor{red}{摂動展開}手法を学ぶ
         \item 熱力学ポテンシャル$\Omega$をグリーン関数より導出する
     \end{itemize}
 \end{frame}
@@ -42,6 +43,7 @@
     \tableofcontents
 \end{frame}
 
+%==============================================================
 \begin{frame}\frametitle{復習}
     ハミルトニアンが$H=H_0+H^{'}$, $\mathscr{H}=H+\mu N$のとき\\
     以下のように定義を行う.
@@ -62,6 +64,26 @@
     \end{itemize}
 \end{frame}
 
+\begin{frame}\frametitle{復習}
+    $u$に対して$\omega$という量を定義することで, フーリエ級数展開を行える.
+    \begin{align}
+        G_r[u,u^{'}] = \frac{1}{\beta}\sum_lG_r(i\omega_l)e^{-i\omega_l(u-u^{'})}
+    \end{align}
+    フェルミ粒子であれば, $\omega_l$は次のような離散的な値をとる.
+    \begin{align}
+        \omega_l = (2l+1)\pi/\beta,\quad l\in \mathbb{Z}
+    \end{align}
+\end{frame}
+
+\begin{frame}\frametitle{復習}
+    \centering
+    \begin{tikzpicture}
+        \draw[->] (-3.0,0) -- (3.0,0);
+        \draw[->] (0,-3.0) -- (0,3.0);
+    \end{tikzpicture}
+\end{frame}
+
+%==============================================================
 \section{$T$指数関数および$T$記号の性質}
 \begin{frame}
     hello
