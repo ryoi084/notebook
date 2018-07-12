@@ -339,8 +339,6 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 OUTPUT Chapter_11.dvi
-INPUT Chapter_11.toc
-INPUT Chapter_11.toc
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
@@ -363,6 +361,8 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT Chapter_11.toc
+INPUT Chapter_11.toc
 INPUT Chapter_11.toc
 INPUT Chapter_11.toc
 INPUT Chapter_11.toc
