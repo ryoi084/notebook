@@ -80,21 +80,88 @@
     \begin{tikzpicture}
         \draw[->] (-3.0,0) -- (3.0,0);
         \draw[->] (0,-3.0) -- (0,3.0);
+        \draw[] (0, 2.25) circle (0.1);
+        \draw[] (0, 1.75) circle (0.1);
+        \draw[] (0, 1.25) circle (0.1);
+        \draw[] (0, 0.75) circle (0.1);
+        \draw[] (0, 0.25) circle (0.1);
+        \draw[] (0,-0.25) circle (0.1);
+        \draw[] (0,-0.75) circle (0.1);
+        \draw[] (0,-1.25) circle (0.1);
+        \draw[] (0,-1.75) circle (0.1);
+        \draw[] (0,-2.25) circle (0.1);
+        \fill[] ( 2.5,0) circle (0.1);
+        \fill[] ( 0.5,0) circle (0.1);
+        \fill[] (-0.5,0) circle (0.1);
+        \fill[] (-2.5,0) circle (0.1);
+        
+        \fill[] (2,2) circle (0.1);
+        \node[anchor=west] at (2,2) {$E_r$};
+        \draw[] (2,1) circle (0.1);
+        \node[anchor=west] at (2,1) {$\omega_l$};
     \end{tikzpicture}
 \end{frame}
 
 %==============================================================
 \section{$T$指数関数および$T$記号の性質}
 \begin{frame}
-    hello
+    $U(\beta)$は次のように決まる
+    \setcounter{equation}{6}
+    \begin{align}
+        e^{-\beta\mathscr{H}}=e^{-\beta\mathscr{H}_0}U(\beta)
+    \end{align}
+    (8.22)により, $U(\beta)$は摂動展開した形になる
+    \begin{align}
+        U(\beta) = 1+\sum_{n=1}^{\infty}\frac{(-1)^n}{n!}\int_0^{\beta}P\left[H^{'}(u_1)\cdots H^{'}(u_n)\right]du_1\cdots du_n
+    \end{align}
+    $P$は{\it Wickの記号}(P.132)である
 \end{frame}
-\subsection{$T$記号の性質}
 
+\subsection{$T$記号の性質}
+\begin{frame}
+    \begin{block}{Wickの記号}
+        時間の大きさの順に並べる際に, 
+        \begin{itemize}
+            \item 奇数回の置換なら$-$符号
+            \item 偶数回の置換なら$+$符号
+        \end{itemize}
+        をつける
+    \end{block}
+    \begin{block}{$T$記号}
+        時間順序積を示す記号\\
+        $a,a^{'}$偶数個でできている演算子$C$について次が成立する
+        \setcounter{equation}{15}
+        \begin{align}
+            T[C(1),C(2)] = P[C(2),C(1)]\\
+            T[a^{(\dagger)}(1),C(2)] = T[C(2),a^{(\dagger)}(1)]
+        \end{align}
+    \end{block}
+    \centering
+    $H^{'}$が$a,a^{'}$を\textcolor{red}{偶数個含んでいる場合}は,\\ \textcolor{red}{$P$を$T$で置き換えが可能}となる
+\end{frame}
+
+
+%==============================================================
 \section{グリーン関数に対する表式}
 \begin{frame}
-    hello
+    $U^{-1}(u)$を次のように定める
+    \begin{align}
+        \left(e^{-u\mathscr{H}}\right)^{-1} = \left(e^{-u\mathscr{H}_0}U(u)\right)^{-1} = U^{-1}(u)e^{u\mathscr{H}_0}
+    \end{align}
+    これを用いて次の表記を定義する
+    \setcounter{equation}{23}
+    \begin{align}
+        U(u,u^{'})=U(u)U^{-1}(u^{'}) = T\exp\left[-\int_{u^{'}}^uH^{'}(u_1)du_1\right]
+    \end{align}
+    以降, $a_r$に対して
+    \begin{itemize}
+        \item $a_r(u) = e^{u\mathscr{H}_0}a_re^{-u\mathscr{H}_0}$ : 相互作用表示
+        \item $A_r(u) = e^{u\mathscr{H}}a_re^{-u\mathscr{H}}$ : ハイゼンベルグ表示
+    \end{itemize}
+    と表記する
 \end{frame}
 
+%==============================================================
 \section{グリーン関数に対するファインマン図形}
 \begin{frame}
     hello
@@ -106,11 +173,13 @@
 \end{frame}
 \subsection{$G_r(i\omega_l)$の計算の規則}
 
+%==============================================================
 \section{自己エネルギー(self-energy)}
 \begin{frame}
     hello
 \end{frame}
 
+%==============================================================
 \section{電子ガスへの応用}
 \subsection{リング近似との関係}
 \begin{frame}
