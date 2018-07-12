@@ -55,7 +55,7 @@
     \begin{itemize}
         \item $r$は状態を表す指数\\
         \item $A_r^{(\dagger)}(u)$は$a_r^{(\dagger)}$のハイゼンベルグ表示\\
-        \item $<X>$は演算子$X$の大正準集団に対する平均\\
+        \item $<X>$は演算子$X$の大正準集団に対する平均
         \begin{align}
             <X>={\rm tr}(X e^{-\beta\mathscr{H}})/{\rm tr}(e^{-\beta\mathscr{H}}) \tag{3}
         \end{align}
@@ -120,6 +120,7 @@
     \begin{block}{Wickの記号}
         時間の大きさの順に並べる際に, 
         \begin{itemize}
+            \centering
             \item 奇数回の置換なら$-$符号
             \item 偶数回の置換なら$+$符号
         \end{itemize}
@@ -193,15 +194,39 @@
 
 %==============================================================
 \section{グリーン関数に対するファインマン図形}
-\begin{frame}
-    hello
+\subsection{$G_r(i\omega_l)$の計算の規則}
+\begin{frame}{計算手順}
+    \small
+    \begin{enumerate}
+        \item \textcolor{red}{外線}とつながった$n$次のすべての可能なファインマン図形を描く
+        \item そのような図形に次の式を当てはめる
+        \begin{align*}
+            \frac{(-1)^n(-1)^{n_l}}{n!(2\beta V)^n}\prod_{i=1}^{n}\left(r_is_i|v|r_i's_i'\right)
+        \end{align*}
+        \item $r$, $l$の電子線に次の式を対応させる
+        \begin{align*}
+            g_r(i\omega_l) = (i\omega_l-\varepsilon_r)^{-1}
+        \end{align*}
+        同時刻の場合は
+        \begin{align*}
+            (i\omega_l-\varepsilon_r)^{-1}\exp(i\omega_l0)
+        \end{align*}
+        \item エネルギー保存則を考慮する
+        \begin{align*}
+            \omega_{l_1} + \omega_{l_2} = \omega_{l_3} + \omega_{l_4}
+        \end{align*}
+        \item 外線の$r$,$l$は固定し, 他の変数に関して和をとる
+    \end{enumerate}
+    \normalsize
 \end{frame}
 
-\subsection{一般項に対する考察}
-\begin{frame}
-    hello
+\begin{frame}{外線}
+    \begin{block}{外線とは}
+        \centering
+        $u'$から出ている線, 及び$u$に入る線
+    \end{block}
 \end{frame}
-\subsection{$G_r(i\omega_l)$の計算の規則}
+
 
 %==============================================================
 \section{自己エネルギー(self-energy)}

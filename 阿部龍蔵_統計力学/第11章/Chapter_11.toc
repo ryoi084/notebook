@@ -2,8 +2,7 @@
 \beamer@subsectionintoc {1}{1}{$T$記号の性質}{9}{0}{1}
 \beamer@sectionintoc {2}{グリーン関数に対する表式}{10}{0}{2}
 \beamer@sectionintoc {3}{グリーン関数に対するファインマン図形}{14}{0}{3}
-\beamer@subsectionintoc {3}{1}{一般項に対する考察}{16}{0}{3}
-\beamer@subsectionintoc {3}{2}{$G_r(i\omega _l)$の計算の規則}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{$G_r(i\omega _l)$の計算の規則}{15}{0}{3}
 \beamer@sectionintoc {4}{自己エネルギー(self-energy)}{17}{0}{4}
 \beamer@sectionintoc {5}{電子ガスへの応用}{19}{0}{5}
 \beamer@subsectionintoc {5}{1}{リング近似との関係}{20}{0}{5}
