@@ -10,19 +10,20 @@
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\slideentry {0}{0}{6}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\sectionentry {1}{$T$�w���֐������$T$�L���̐���}{7}{$T$�w���֐������$T$�L���̐���}{0}}
 \headcommand {\beamer@sectionpages {1}{6}}
 \headcommand {\beamer@subsectionpages {1}{6}}
+\headcommand {\sectionentry {1}{$T$指数関数および$T$記号の性質}{7}{$T$指数関数および$T$記号の性質}{0}}
 \headcommand {\slideentry {1}{0}{1}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
 \headcommand {\slideentry {1}{0}{2}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{9}{$T$�L���̐���}}\headcommand {\beamer@subsectionpages {7}{8}}
-\headcommand {\slideentry {1}{1}{1}{9/9}{$T$�L���̐���}{0}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{9}{$T$記号の性質}}
+\headcommand {\slideentry {1}{1}{1}{9/9}{$T$記号の性質}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\sectionentry {2}{�O���[���֐��ɑ΂���\��}{10}{�O���[���֐��ɑ΂���\��}{0}}
 \headcommand {\beamer@sectionpages {7}{9}}
 \headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\sectionentry {2}{グリーン関数に対する表式}{10}{グリーン関数に対する表式}{0}}
 \headcommand {\slideentry {2}{0}{1}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
 \headcommand {\slideentry {2}{0}{2}{11/11}{}{0}}
@@ -31,33 +32,35 @@
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\slideentry {2}{0}{4}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\sectionentry {3}{�O���[���֐��ɑ΂���t�@�C���}���}�`}{14}{�O���[���֐��ɑ΂���t�@�C���}���}�`}{0}}
 \headcommand {\beamer@sectionpages {10}{13}}
 \headcommand {\beamer@subsectionpages {10}{13}}
+\headcommand {\sectionentry {3}{グリーン関数に対するファインマン図形}{14}{グリーン関数に対するファインマン図形}{0}}
 \headcommand {\slideentry {3}{0}{1}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{15}{$G_r(i\omega _l)$�̌v�Z�̋K��}}\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\slideentry {3}{1}{1}{15/15}{$G_r(i\omega _l)$�̌v�Z�̋K��}{0}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{15}{$G_r(i\omega _l)$の計算の規則}}
+\headcommand {\slideentry {3}{1}{1}{15/15}{$G_r(i\omega _l)$の計算の規則}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {3}{1}{2}{16/16}{$G_r(i\omega _l)$�̌v�Z�̋K��}{0}}
+\headcommand {\slideentry {3}{1}{2}{16/16}{$G_r(i\omega _l)$の計算の規則}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\sectionentry {4}{���ȃG�l���M�[(self-energy)}{17}{���ȃG�l���M�[(self-energy)}{0}}
 \headcommand {\beamer@sectionpages {14}{16}}
 \headcommand {\beamer@subsectionpages {15}{16}}
+\headcommand {\sectionentry {4}{自己エネルギー(self-energy)}{17}{自己エネルギー(self-energy)}{0}}
 \headcommand {\slideentry {4}{0}{1}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
 \headcommand {\slideentry {4}{0}{2}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\sectionentry {5}{�d�q�K�X�ւ̉��p}{19}{�d�q�K�X�ւ̉��p}{0}}
 \headcommand {\beamer@sectionpages {17}{18}}
 \headcommand {\beamer@subsectionpages {17}{18}}
+\headcommand {\sectionentry {5}{電子ガスへの応用}{19}{電子ガスへの応用}{0}}
 \headcommand {\slideentry {5}{0}{1}{19/19}{}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{20}{�����O�ߎ��Ƃ̊֌W}}\headcommand {\beamer@subsectionpages {19}{19}}
-\headcommand {\slideentry {5}{1}{1}{20/20}{�����O�ߎ��Ƃ̊֌W}{0}}
+\headcommand {\beamer@subsectionpages {19}{19}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{20}{リング近似との関係}}
+\headcommand {\slideentry {5}{1}{1}{20/20}{リング近似との関係}{0}}
 \headcommand {\beamer@framepages {20}{20}}
 \headcommand {\beamer@partpages {1}{20}}
 \headcommand {\beamer@subsectionpages {20}{20}}
 \headcommand {\beamer@sectionpages {19}{20}}
 \headcommand {\beamer@documentpages {20}}
-\headcommand {\def \inserttotalframenumber {20}}
+\headcommand {\gdef \inserttotalframenumber {20}}

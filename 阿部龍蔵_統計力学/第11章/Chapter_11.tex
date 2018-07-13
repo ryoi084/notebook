@@ -1,4 +1,4 @@
-\documentclass[dvipdfmx,11pt]{beamer}
+\documentclass[dvipdfmx,10pt]{beamer}
 \usetheme{Warsaw}
 \usecolortheme[RGB={32, 32, 96}]{structure}
 \usefonttheme{professionalfonts}
@@ -196,7 +196,8 @@
 \section{グリーン関数に対するファインマン図形}
 \subsection{$G_r(i\omega_l)$の計算の規則}
 \begin{frame}{計算手順}
-    \small
+    % \small
+    \footnotesize
     \begin{enumerate}
         \item \textcolor{red}{外線}とつながった$n$次のすべての可能なファインマン図形を描く
         \item そのような図形に次の式を当てはめる
@@ -228,8 +229,8 @@
     \centering
     \begin{tikzpicture}
         \node[anchor=east] at (-5.0,-1.0) {$u'$};
-        \draw[->,thick] (-5.0,-1.0) -- (-5.0, 0.0);
-        \draw[-, thick] (-5.0, 0.0) -- (-5.0, 1.0);
+        \draw[->,thick,red] (-5.0,-1.0) -- (-5.0, 0.0);
+        \draw[-, thick,red] (-5.0, 0.0) -- (-5.0, 1.0);
         \node[anchor=east] at (-5.0, 1.0) {$u$};
         \draw[->,thick] (-3.0,-1.0) arc (-90:90:1);
         \draw[->,thick] (-3.0, 1.0) arc (90:270:1);
@@ -237,15 +238,14 @@
         \node[anchor=north] at (-3.5,-1.5) {つながらない図形};
 
         \node[anchor=east] at ( 1.0,-1.0) {$u'$};
-        \draw[->,thick] ( 1.0,-1.0) -- ( 1.5,-0.5);
-        \draw[-,thick] ( 1.5,-0.5) -- ( 2.0, 0.0);
-        \draw[->, thick] ( 2.0, 0.0) -- ( 1.5, 0.5);
-        \draw[-, thick] ( 1.5, 0.5) -- ( 1.0, 1.0);
+        \draw[->,thick,red] ( 1.0,-1.0) -- ( 1.5,-0.5);
+        \draw[-,thick,red] ( 1.5,-0.5) -- ( 2.0, 0.0);
+        \draw[->, thick,red] ( 2.0, 0.0) -- ( 1.5, 0.5);
+        \draw[-, thick,red] ( 1.5, 0.5) -- ( 1.0, 1.0);
         \node[anchor=east] at ( 1.0, 1.0) {$u$};
         \draw[->,thick] ( 3.5, 0.5) arc (90:450:0.5);
         \draw[dashed, thick] ( 2.0, 0.0) -- ( 3.0, 0.0);
         \node[anchor=north] at ( 2.5,-1.5) {つながった図形};
-
     \end{tikzpicture}
 \end{frame}
 
