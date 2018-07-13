@@ -369,33 +369,6 @@
     % \small
     \footnotesize
     \begin{enumerate}
-        \item \textcolor{red}{外線}とつながった$n$次のすべての可能なファインマン図形を描く
-        \item そのような図形に次の式を当てはめる
-        \begin{align*}
-            \frac{(-1)^n(-1)^{n_l}}{n!(2\beta V)^n}\prod_{i=1}^{n}\left(r_is_i|v|r_i's_i'\right)
-        \end{align*}
-        \item \underline{$r$, $l$の電子線に次の式を対応させる}
-        \begin{align*}
-            \underline{g_r(i\omega_l) = (i\omega_l-\varepsilon_r)^{-1}}
-        \end{align*}
-        \underline{同時刻の場合は}
-        \begin{align*}
-            \underline{(i\omega_l-\varepsilon_r)^{-1}\exp(i\omega_l0)}
-        \end{align*}
-        \textcolor{red}{$\rightarrow$どの図形が当てはまる?}
-        \item エネルギー保存則を考慮する
-        \begin{align*}
-            \omega_{l_1} + \omega_{l_2} = \omega_{l_3} + \omega_{l_4}
-        \end{align*}
-        \item 外線の$r$,$l$は固定し, 他の変数に関して和をとる
-    \end{enumerate}
-    \normalsize
-\end{frame}
-
-\begin{frame}{$G_r(i\omega_l)$の1次の寄与}
-    % \small
-    \footnotesize
-    \begin{enumerate}
         \item 外線とつながった$n$次のすべての可能なファインマン図形を描く
         \item そのような図形に次の式を当てはめる
         \begin{align*}
@@ -419,7 +392,49 @@
     \normalsize
 \end{frame}
 
-\begin{frame}{1次でのファインマン図}
+\begin{frame}{図形と式の当てはめ方}
+    \centering
+    \begin{tikzpicture}
+        \node[anchor=east] at (-4.0, 0.0) {$u$};
+        \draw[->,very thick,red] (-4.0, 0.0) -- (-4.0, 1.0);
+        \draw[-, very thick,red] (-4.0, 1.0) -- (-4.0, 2.0);
+        \node[anchor=east] at (-4.0, 2.0) {$u'$};
+        \draw[dashed, thick] (-4.0, 1.0) -- (-2.5, 1.0);
+        \draw[->,thick,blue] (-2.0, 1.5) arc (90:450:0.5);
+
+        \draw[->,thick,blue] (-4.0,-0.5) arc (90:450:0.5);
+        \draw[dashed, thick] (-3.5,-1.0) -- (-2.0,-1.0);
+        \node[anchor=west] at (-2.0,-2.0) {$u'$};
+        \draw[->,very thick,red] (-2.0, 0.0) -- (-2.0,-1.0);
+        \draw[-, very thick,red] (-2.0,-1.0) -- (-2.0,-2.0);
+        \node[anchor=west] at (-2.0, 0.0) {$u$};
+
+        \node[anchor=west] at ( 4.0, 2.0) {$u$};
+        \draw[->,very thick, red] ( 2.0, 1.0) -- ( 2.0, 1.5);
+        \draw[-,very thick, red] ( 2.0, 1.5) -- ( 2.0, 2.0);
+        \draw[->,very thick, red] ( 4.0, 2.0) -- ( 4.0, 1.5);
+        \draw[-,very thick, red] ( 4.0, 1.5) -- ( 4.0, 1.0);
+        \node[anchor=east] at ( 2.0, 2.0) {$u'$};
+        \draw[dashed, thick] ( 2.0, 1.0) -- ( 4.0, 1.0);
+        \draw[->,thick,blue] ( 4.0, 1.0) to [out=-90, in=-90] ( 2.0, 1.0);
+
+        \draw[->,thick,blue] ( 2.0,-1.0) to [out=90, in=90] ( 4.0,-1.0);
+        \draw[dashed, thick] ( 2.0,-1.0) -- ( 4.0,-1.0);
+        \node[anchor=east] at ( 2.0,-2.0) {$u$};
+        \draw[->,very thick, red] ( 2.0,-2.0) -- ( 2.0,-1.5);
+        \draw[-,very thick, red] ( 2.0,-1.5) -- ( 2.0,-1.0);
+        \draw[->,very thick, red] ( 4.0,-1.0) -- ( 4.0,-1.5);
+        \draw[-,very thick, red] ( 4.0,-1.5) -- ( 4.0,-2.0);
+        \node[anchor=west] at ( 4.0,-2.0) {$u'$};
+
+        \draw[->, very thick, red] (-2.0,-3.0) -- ( 0.0,-3.0);
+        \node[anchor=west] at ( 0.0,-3.0) {$:(i\omega_l-\varepsilon_r)^{-1}$};
+        \draw[->, thick, blue] (-2.0,-3.5) -- ( 0.0,-3.5);
+        \node[anchor=west] at ( 0.0,-3.5) {$:(i\omega_l-\varepsilon_r)^{-1}\exp(i\omega_l0)$};
+    \end{tikzpicture}
+\end{frame}
+
+\begin{frame}
     この手順に従った結果が次の通り
     \begin{block}{$G_r(i\omega_l)$の1次の寄与}
         \begin{align*}
@@ -429,7 +444,6 @@
     \end{block}
     この方法を$n=2,3,\cdots$と次数を増やした場合でも計算していくことで, $G_r(i\omega_l)$を求めることが可能
 \end{frame}
-
 
 %==============================================================
 \section{自己エネルギー(self-energy)}
