@@ -275,6 +275,10 @@ INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+INPUT c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 INPUT Chapter_11.aux
 INPUT Chapter_11.aux
 OUTPUT Chapter_11.aux
@@ -372,6 +376,7 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT Chapter_11.toc
 INPUT Chapter_11.toc
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT Chapter_11.toc
 INPUT Chapter_11.toc
 OUTPUT Chapter_11.nav

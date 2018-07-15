@@ -18,6 +18,7 @@
 \usepackage{grffile}
 \usepackage{here}
 \usepackage{tikz}
+\usetikzlibrary{patterns}
 
 \title{第11章\\グリーン関数に対する摂動論}
 \author{Ryoi Ohashi}
@@ -448,14 +449,146 @@
 %==============================================================
 \section{自己エネルギー(self-energy)}
 \begin{frame}
-    hello
+    \begin{block}{自己エネルギー}
+        \centering
+        固有(proper)な図形を描いたときの, \\
+        外線以外の部分を{\bf 自己エネルギー部分}といい\\
+        自己エネルギー部分からのグリーン関数への寄与を\\
+        {\bf \textcolor{red}{自己エネルギー}}($\Sigma_r(i\omega_l)$)と書く
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item 固有(proper): 分裂しないとき
+    \end{itemize}
+    \centering
+    \begin{tikzpicture}
+        \draw[thick] (-1.0,-1.0) -- (-1.0, 1.0);
+        \draw[dashed,thick] (-1.0,-0.5) -- ( 0.0,-0.5);
+        \draw[dashed,thick] (-1.0, 0.5) -- ( 0.0, 0.5);
+        \draw[thick] ( 0.0,-0.5) to [out=0, in=0] ( 0.0, 0.5);
+        \draw[thick] ( 0.0,-0.5) to [out=180, in=180] ( 0.0, 0.5);
+        \draw[very thick,red] ( 0.2, 0.0) -- ( 0.4, 0.0);
+
+        \draw[->,very thick] ( 0.7, 0.0) -- (1.5, 0.0);
+
+        \draw[thick] ( 2.0,-1.0) -- ( 2.0, 1.0);
+        \draw[dashed,thick] ( 2.0,-0.5) -- ( 3.0,-0.5);
+        \draw[dashed,thick] ( 2.0, 0.5) -- ( 3.0, 0.5);
+        \draw[thick] ( 3.0,-0.5) to [out=180, in=180] ( 3.0, 0.5);
+        \draw[thick] ( 3.3, 0.2) to [out=90, in=0] ( 3.0, 0.5);
+        \draw[thick] ( 3.3,-0.2) to [out=-90, in=0] ( 3.0,-0.5);
+    \end{tikzpicture}
+    \begin{itemize}
+        \item 非固有(improper): 分裂するとき
+    \end{itemize}
+    \begin{tikzpicture}
+        \draw[thick] (-1.0, -1.0) -- (-1.0,-0.5);
+        \draw[dashed,thick] (-1.0,-0.5) -- (-2.0,-0.5);
+        \draw[thick] (-1.0,-0.5) to [out=90, in=90] (-2.0,-0.5);
+        \draw[thick] (-2.0, -0.5) -- (-2.0, 0.5);
+        \draw[dashed,thick] (-2.0, 0.5) -- (-3.0, 0.5);
+        \draw[thick] (-2.0, 0.5) to [out=90, in=90] (-3.0, 0.5);
+        \draw[thick] (-3.0,  0.5) -- (-3.0, 1.0);
+        \draw[very thick,red] (-2.2, 0.0) -- (-1.8, 0.0);
+
+        \draw[->,very thick] (-0.5, 0.0) -- (0.5, 0.0);
+
+        \draw[thick] ( 3.0, -1.0) -- ( 3.0,-0.5);
+        \draw[dashed,thick] ( 3.0,-0.5) -- ( 2.0,-0.5);
+        \draw[thick] ( 3.0,-0.5) to [out=90, in=90] ( 2.0,-0.5);
+        \draw[thick] ( 2.0, -0.5) -- ( 2.0,-0.2);
+        \draw[thick] ( 2.0,  0.2) -- ( 2.0, 0.5);
+        \draw[dashed,thick] ( 2.0, 0.5) -- ( 1.0, 0.5);
+        \draw[thick] ( 2.0, 0.5) to [out=90, in=90] ( 1.0, 0.5);
+        \draw[thick] ( 1.0,  0.5) -- ( 1.0, 1.0);
+    \end{tikzpicture}
+\end{frame}
+
+\begin{frame}
+    自己エネルギーを用いると,\\
+    \begin{tikzpicture}
+        \centering
+        \node[anchor=south] at (-3.0, 0.0) {$r,l$};
+        \draw[->,thick] (-3.0, 0.0) -- (-2.0, 0.0);
+        \draw[thick] (-2.0, 0.0) -- (-1.0, 0.0);
+        \fill[pattern=horizontal lines] ( 0.0, 0.0) circle (1.0);
+        \draw[] ( 0.0, 0.0) circle (1.0);
+        \draw[->,thick] ( 1.0, 0.0) -- ( 2.0, 0.0);
+        \draw[thick] ( 2.0, 0.0) -- ( 3.0, 0.0);
+        \node[anchor=south] at ( 3.0, 0.0) {$r,l$};
+
+        \draw[->,very thick] ( 2.0, 2.0) to [out=180, in=60] ( 1.0, 1.0);
+        \node[anchor=west] at ( 2.0, 2.0) {自己エネルギー部分};
+    \end{tikzpicture}
+
+    上のファインマン図形は次のように表される
+    \begin{align*}
+        \frac{1}{(i\omega_l-\varepsilon_r)^2}\Sigma_r(i\omega_l) \tag{49}
+    \end{align*}
+\end{frame}
+
+\begin{frame}
+    一般的に自己エネルギー部分を含む図形の和で, グリーン関数を計算することができる\\
+    \centering
+    \begin{tikzpicture}
+        \draw[thick] (-3.0,-1.0) -- (-3.0, 1.0);
+
+        \node[anchor=west] at (-2.0, 0.0) {$+$};
+
+        \draw[thick] ( 0.0,-1.2) -- ( 0.0,-0.5);
+        \fill[pattern=horizontal lines] ( 0.0, 0.0) circle (0.5);
+        \draw[] ( 0.0, 0.0) circle (0.5);
+        \draw[thick] ( 0.0, 0.5) -- ( 0.0, 1.2);
+        
+        \node[anchor=west] at ( 1.2, 0.0) {$+$};
+
+        \draw[thick] ( 3.0,-2.0) -- ( 3.0,-1.5);
+        \fill[pattern=horizontal lines] ( 3.0,-1.0) circle (0.5);
+        \draw[] ( 3.0,-1.0) circle (0.5);
+        \draw[thick] ( 3.0,-0.5) -- ( 3.0, 0.5);
+        \fill[pattern=horizontal lines] ( 3.0, 1.0) circle (0.5);
+        \draw[] ( 3.0, 1.0) circle (0.5);
+        \draw[thick] ( 3.0, 1.5) -- ( 3.0, 2.0);
+    \end{tikzpicture}
+
+    \begin{align*}
+        \Leftrightarrow
+        G_r(i\omega_l) &= g_r(i\omega_l) + g_r^2(i\omega_l)\Sigma_r(i\omega_l) + g_r^3(i\omega_l)\Sigma_r^2(i\omega_l) + \cdots \\
+        &= \frac{1}{i\omega_l - \varepsilon_r - \Sigma_r(i\omega_l)} \tag{50}
+    \end{align*}
+\end{frame}
+
+\begin{frame}
+    \begin{block}{準粒子のエネルギー}
+        \begin{align*}
+            z - \varepsilon_r - \Sigma_r(z)= 0 \tag{51a}
+        \end{align*}
+    \end{block}
 \end{frame}
 
 %==============================================================
 \section{電子ガスへの応用}
-\subsection{リング近似との関係}
 \begin{frame}
-    hello
+    電子ガスの低温比熱は
+    \begin{block}{}
+        \begin{align*}
+            \frac{m}{m_t} = 1 - \frac{\alpha r_s}{\pi}\left(1 + \frac{1}{2}\ln{\frac{\alpha r_s}{\pi}}\right) \tag{67}
+        \end{align*}
+    \end{block}
+    $\cdots$ クーロン相互作用は電子比熱に数パーセントの補正を与える
+\end{frame}
+
+\subsection{リング近似との関係}
+\begin{frame}{リング近似との関係}
+    リング近似を用いたときの$\Omega'$を算出すると
+    \begin{block}{}
+        \begin{align*}
+            \Omega' &= \frac{1}{2\beta}\sum_{qn}\int_0^1\left[\frac{\bm{v}(\bm{q})\bm{\Pi}_n(\bm{q})}{1+g\bm{v}(\bm{q})\bm{\Pi}_n(\bm{q})-\bm{v}(\bm{q})\bm{\Pi}_n(\bm{q})}\right]dg \\
+            &= \frac{1}{2\beta}\sum_{qn}\left[\ln\left\{1 +\bm{v}(\bm{q})\bm{\Pi}_n(\bm{q}) \right\}-\bm{v}(\bm{q})\bm{\Pi}_n(\bm{q})\right] \tag{71}
+        \end{align*}
+    \end{block}
 \end{frame}
 
 \end{document}

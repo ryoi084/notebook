@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2018.6.24)  14 JUL 2018 01:16
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2018.6.24)  15 JUL 2018 21:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -802,27 +802,35 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) (./Chapter_11.aux)
+)))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
+
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.t
+ex
+File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
+)) (./Chapter_11.aux)
 \openout1 = `Chapter_11.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
@@ -859,7 +867,7 @@ LaTeX Font Info:    ... okay on input line 28.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box103
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 29.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -869,9 +877,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count180
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (./Chapter_11.out) (./Chapter_11.out)
 \@outlinefile=\write5
@@ -902,22 +910,22 @@ Dictionary: translator-numbers-dictionary, Language: English
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./Chapter_11.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 28.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 29.
 
 (c:/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \vbox (0.77788pt too high) detected at line 28
+Overfull \vbox (0.77788pt too high) detected at line 29
  []
 
 [1
@@ -961,11 +969,11 @@ Overfull \vbox (0.77788pt too high) has occurred while \output is active []
 ]
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 116.
+(Font)              using `JT1/mc/m/n' instead on input line 117.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 116.
+(Font)              using `JY1/mc/m/n' instead on input line 117.
 
 
 Overfull \vbox (0.77788pt too high) has occurred while \output is active []
@@ -1028,7 +1036,7 @@ Overfull \vbox (0.77788pt too high) has occurred while \output is active []
 [17
 
 ]
-Overfull \hbox (6.32478pt too wide) in paragraph at lines 300--300
+Overfull \hbox (6.32478pt too wide) in paragraph at lines 301--301
  [][] 
  []
 
@@ -1039,7 +1047,7 @@ Overfull \vbox (0.77788pt too high) has occurred while \output is active []
 [18
 
 ]
-Overfull \hbox (7.77023pt too wide) in paragraph at lines 331--331
+Overfull \hbox (7.77023pt too wide) in paragraph at lines 332--332
  [][] 
  []
 
@@ -1080,12 +1088,17 @@ Overfull \vbox (0.77788pt too high) has occurred while \output is active []
 [24
 
 ]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 459.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 459.
+
 Overfull \vbox (0.77788pt too high) has occurred while \output is active []
 
 
 [25
 
-] (./Chapter_11.toc)
+]
 Overfull \vbox (0.77788pt too high) has occurred while \output is active []
 
 
@@ -1098,6 +1111,36 @@ Overfull \vbox (0.77788pt too high) has occurred while \output is active []
 [27
 
 ]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[28
+
+]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[29
+
+] (./Chapter_11.toc)
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[30
+
+]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[31
+
+]
+Overfull \vbox (0.77788pt too high) has occurred while \output is active []
+
+
+[32
+
+]
 \tf@nav=\write6
 \openout6 = `Chapter_11.nav'.
 
@@ -1107,11 +1150,11 @@ Overfull \vbox (0.77788pt too high) has occurred while \output is active []
 \tf@snm=\write8
 \openout8 = `Chapter_11.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 461.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 461.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 594.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 594.
  (./Chapter_11.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 461.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 461.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 594.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 594.
 Package rerunfilecheck Info: File `Chapter_11.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1120,12 +1163,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20141 strings out of 493273
- 398219 string characters out of 6148004
- 499797 words of memory out of 5000000
- 23588 multiletter control sequences out of 15000+600000
- 21297 words of font info for 84 fonts, out of 8000000 for 9000
+ 20263 strings out of 493273
+ 401979 string characters out of 6148004
+ 506728 words of memory out of 5000000
+ 23703 multiletter control sequences out of 15000+600000
+ 21591 words of font info for 85 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  56i,22n,64p,853b,751s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Chapter_11.dvi (27 pages, 247908 bytes).
+Output written on Chapter_11.dvi (32 pages, 296620 bytes).
