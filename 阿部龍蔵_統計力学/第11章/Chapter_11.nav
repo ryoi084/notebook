@@ -79,12 +79,14 @@
 \headcommand {\beamer@framepages {30}{30}}
 \headcommand {\slideentry {5}{0}{2}{31/31}{}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\beamer@subsectionpages {30}{31}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{32}{リング近似との関係}}
-\headcommand {\slideentry {5}{1}{1}{32/32}{リング近似との関係}{0}}
+\headcommand {\slideentry {5}{0}{3}{32/32}{}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\beamer@partpages {1}{32}}
-\headcommand {\beamer@subsectionpages {32}{32}}
-\headcommand {\beamer@sectionpages {30}{32}}
-\headcommand {\beamer@documentpages {32}}
-\headcommand {\gdef \inserttotalframenumber {32}}
+\headcommand {\beamer@subsectionpages {30}{32}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{33}{リング近似との関係}}
+\headcommand {\slideentry {5}{1}{1}{33/33}{リング近似との関係}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\beamer@partpages {1}{33}}
+\headcommand {\beamer@subsectionpages {33}{33}}
+\headcommand {\beamer@sectionpages {30}{33}}
+\headcommand {\beamer@documentpages {33}}
+\headcommand {\gdef \inserttotalframenumber {33}}
