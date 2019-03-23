@@ -68,6 +68,15 @@ $$
 
 $\sqrt{a}$は(工学的な)次元を反映した, 場の演算子とデルタ関数を受け渡す係数である.
 
+$$
+\begin{aligned}
+    \left\{ \psi(x),\psi^{\dagger}(x') \right\} =& \delta(x-x')\\
+    \left\{ \bar{\psi}(x),\bar{\psi}^{\dagger}(x') \right\} =& \delta(x-x')\\
+    \left\{ \psi(x),\bar{\psi}^{\dagger}(x') \right\} =& 0
+    \tag{15}
+\end{aligned}
+$$
+
 ## 左-右 分割 (Left-right separation)
 
 aa
