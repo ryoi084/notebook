@@ -79,4 +79,47 @@ $$
 
 ## 左-右 分割 (Left-right separation)
 
-aa
+波数のモードで連続場を展開すると,
+
+$$
+\begin{aligned}
+    \psi(x) =& \int_{k>0}\frac{dk}{2\pi}\left[e^{ikx}\alpha(k) + e^{-ikx}\beta^{\dagger}(k)\right]\\
+    \bar{\psi}(x) =& \int_{k<0}\frac{dk}{2\pi}\left[e^{ikx}\alpha(k) + e^{-ikx}\beta^{\dagger}(k)\right]\\
+    \tag{16}
+\end{aligned}
+$$
+
+$\alpha(k)$や$\beta(k)$の時間依存性は, 位相$e^{-iv|k|t}$を掛けることとする. すると（3）の複素数軸を用いれば（16）を次のように変形することが可能.
+
+$$
+\begin{aligned}
+    \psi(x) =& \int_{k>0}\frac{dk}{2\pi}\left[e^{-kz}\alpha(k) + e^{kz}\beta^{\dagger}(k)\right]\\
+    \bar{\psi}(x) =& \int_{k<0}\frac{dk}{2\pi}\left[e^{k\bar{z}}\alpha(k) + e^{-k\bar{z}}\beta^{\dagger}(k)\right]\\
+    \tag{17}
+\end{aligned}
+$$
+
+つまり, 右運動場$\psi$は右運動軸$z$に単に依存し, 左運動場$\bar{\psi}$は左運動軸$\bar{z}$にのみ依存することが確認できる.
+
+また, 左と右の電子は密度ゆらぎを次のように書ける.
+
+$$
+\begin{aligned}
+    J(x)=\psi^{\dagger}(x)\psi(x)\quad \bar{J}(x)=\bar{\psi}^{\dagger}(x)\bar{\psi}(x)
+    \tag{18}
+\end{aligned}
+$$
+
+また(基底状態における)全電子密度は$n_{\rm tot}=J+\bar{J}$となる.
+
+## Dirac方程式との対応
+
+(13)のハミルトニアンを連続場$\psi,\bar{\psi}$で表したい.
+
+$$
+\begin{aligned}
+    \bar{\psi}^{\dagger}\partial_x \bar{\psi}
+    =& \int_{k_1<0}\frac{dk_1}{2\pi}\left[e^{-ik_1x}\alpha(k_1) + e^{ik_1x}\beta^{\dagger}(k_1)\right]\partial_x \int_{k_2<0}\frac{dk_2}{2\pi}\left[e^{ik_2x}\alpha(k_2) + e^{-ik_2x}\beta^{\dagger}(k_2)\right]\\
+    =& \int_{k_1<0}\frac{dk_1}{2\pi}\left[e^{-ik_1x}\alpha(k_1) + e^{ik_1x}\beta^{\dagger}(k_1)\right]ik_2 \int_{k_2<0}\frac{dk_2}{2\pi}\left[e^{ik_2x}\alpha(k_2) - e^{-ik_2x}\beta^{\dagger}(k_2)\right]
+\end{aligned}
+$$
