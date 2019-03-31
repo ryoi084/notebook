@@ -1,135 +1,102 @@
-# 4. One-Dimensional Quantum Antiferromagnets
-
-## 4.1 The Spin-One-Half Heisenberg Chain
-
-サイト数$N$の1次元Heisenberg模型を考えてみる.
-ハミルトニアンは次の通り.
-
+# 4. The renormalization group and scaling
 $$
 \begin{aligned}
-    H = J \sum_{n=1}^{N} \vec{S}(n) \cdot \vec{S}(n+1)
 \end{aligned}
 $$
 
-ここで$J>0$とする. 
-また便利のためにサイト数$N$は偶数とし, 周期境界条件がかかっていると仮定する.
+## 4.1 Scale invariance
 
-この系から得られる特徴の多くは, 次の4つから由来している.
-1. 基底状態におけるベーゼ仮説(Bethe-Ansatz)の解およびその励起スペクトル([Yang 69]())
-2. サインゴルドン(Sine-Gordon)理論の射影([Luther 75]())
-3. 非可換ボゾン化([Affleck 85]())
-4. シグマ模型の射影([Hldane 83]())
+凝縮体の問題を解く際には
 
+- ハミルトニアン
 
-ベーゼ仮説の厳密解は1次元可積分系に特有に現れるもので, 一般的には導出不可能である.
-(他の系でも同様であるが, 高次元の場合に適用できることもあり, 現在さかんに研究が進んでいる)
+    $H=H^*+H'$
 
-### 4.1.1 The Bethe-Ansatz Solution
+- 作用
 
-スピン$\frac{1}{2}$が$N$個連なった純粋状態の波動関数を出発点とする.
-$n$番目のサイトにある電子のスピン状態を知るためのスピン演算子を$\vec{S}(n)$と表記すると, 励起状態$\Psi(s(1),\dots,s(n))$のスピン状態を次のように導ける.
+    $S=S^*+S'$
 
-$$
-\begin{aligned}
-    S_z \Psi(s(1),\dots,s(N))
-    =& \left(\sum_{n=1}^{N}s(n)\right)\Psi(s(1),\dots,s(N))
-\end{aligned}
-$$
+の形で書くことが多く, またこれらを場$\phi(x)$およびその微分を用いて表すことが可能である.
 
-下向きのスピンの総数を$M$を記述すれば,
+この場$\phi$は大概はFermi統計またはBose統計に従い, それに応じて
+
+- Fermi: グラスマン
+- Bose:  スカラー(またはベクトル)
+
+といった代数系にそれぞれ従うことになる.
+
+以上のことをもちいて, 次のような経路積分の文脈で問題を解くことを題材としていく.
 
 $$
 \begin{aligned}
-    \left(\sum_{n=1}^{N}s(N)\right)
-    =& \frac{N}{2}-M
+    \mathcal{Z} = \int \mathcal{D}\phi e^{-S(\phi)}
 \end{aligned}
 $$
 
-波動関数を便利のために表記を変えてみる.
+#### 繰り込み群の流れ
+
+1. 異なる大きさや異なる組み合わせを
+2. 新たなパラメータを定義する("renormalized")ことで
+3. 変化前と同様の系を保ちながら
+4. システムを(短距離 or 高エネルギーでの)カットオフを施した状態に写像する
+
+といった流れを取る.
+
+#### カットオフ
+
+場$\phi(x,t)\equiv \phi(x)$ は($D$次元として)多くのフーリエ成分を持つ.
 
 $$
 \begin{aligned}
-    \Psi(s(1),\dots,s(N))
-    \equiv& \phi(x_1,\dots,x_M)
+    \phi(x)=\int\frac{d^Dk}{(2\pi)^D}e^{ik\cdot x}\phi(k)
 \end{aligned}
 $$
-(正確には$\phi$は係数のような役割?)
 
-
-$x_j$はスピンが逆を向いているサイトを示している.
-例えば, $n=1,4$の2箇所が下を向いていた場合は,$\phi(1,4)$と書ける.
-また強秩序状態は$\Psi_0=\left|\uparrow\dots\uparrow\right>$と表記することとする.
-
-下向きスピンが$M$この場合の一般的な状態は次のように書くことができる.
+もし高い($k,\omega$)の成分($\phi_{>}(x)$と表すこととする)を積分で消去することができれば, 残った部分は低い($k,\omega$)を持った成分($\phi_{<}(x)$)が有効作用(または有効ハミルトニアン)として扱うことができるようになる.
 
 
 $$
 \begin{aligned}
-    \Psi
-    =& \sum_{\{x_j\}}\phi(x_1,\dots,x_M)S^-(x_1)\dots S^-(x_M)\Psi_0
+    &\downarrow \\
+    &\mathcal{Z}=\int\mathcal{D}\phi e^{-S(\phi)}=\int\mathcal{D}\phi_{<}\mathcal{D}\phi_{>} e^{-S(\phi_{<}+\phi_{>})}
 \end{aligned}
 $$
-ここで$S^-(n)$は$n$番目のサイトのスピンを下に向ける演算子である.
 
-### 4.1.2 The Basis Function
-
-ベーゼの手法は, まずスピンの位置を入れ替える演算子$P{n,m}$を用いることから考える.
+ここでもし
 
 $$
 \begin{aligned}
-    P_{n,m}&\Psi(s(1),\dots,s(n),\dots,s(m),\dots,s(N))\\
-    = & \Psi(s(1),\dots,s(m),\dots,s(n),\dots,s(N))
+    e^{-S_{\rm eff}(\phi_{<})}\equiv \int\mathcal{D}\phi_{>} e^{-S(\phi_{<}+\phi_{>})}
 \end{aligned}
 $$
 
-<!-- 
-すると境界条件のある下ではハミルトニアンは次のように書き下すことが可能.
+が成立するならば,
 
 $$
 \begin{aligned}
-    H 
-    =& J \sum_{n=1}^{N} \vec{S}(n) \cdot \vec{S}(n+1)\\
-    =& J \sum_{n=1}^{N} \left(P_{n,n+1}-1\right)\tag{?}\\
+    \mathcal{Z}=\int\mathcal{D}\phi_{<} e^{-S_{\rm eff}(\phi_{<})}
 \end{aligned}
-$$ 
--->
+$$
 
-全体のスピンを一つ平行移動させる演算子を$\tilde{P}$とすると
+として有効作用を用いた同系へと変形された.
+
+#### 固定点
+
+作用$S^*$が次のような関係が成立するようなとき
 
 $$
 \begin{aligned}
-    \tilde{P}\Psi(s(1),\dots,s(N))
-    =& \Psi(s(N),s(1),\dots,s(N-1))
+    S^*_{\rm eff}(\phi_{<})=S^*(\phi)
 \end{aligned}
-$$ 
-
-一つだけ下向きスピンを持つ状態
-
 $$
-\begin{aligned}
-    \Psi(s_1,\dots,s_N)
-    =& \sum_{p=1}^N \psi(p)\left|\uparrow\dots \downarrow \dots \uparrow\right>
-\end{aligned}
-$$ 
 
-に$\tilde{P}$を作用させると$\tilde{P}\Psi=\mu \Psi$を書けることから,
+この作用は繰り込み群(RG)の ___固定点___ であるという.
 
-$$
-\begin{aligned}
-    \tilde{P}\phi(p) = \phi(p+1) = \mu \phi(p)\quad \text{for}\quad p=1,\dots,N
-\end{aligned}
-$$ 
+固定点においては, 対称性として ___スケール不変性___ が生まれることとなる.
 
-となることがわかる.
-つまり, $\phi(1)=1$と仮定すれば
+$\to$ もはやスケールが問題外となる!
 
-$$
-\begin{aligned}
-    \phi(p)
-    =& \mu^{p-1}
-\end{aligned}
-$$ 
+また極限の性質を得ることもできるようになる.
 
-となる. (もちろん周期境界条件から$1=\mu^N$である)
-
-
+1. 相関長が消え($\xi\to0$), エネルギーギャップが発散する($E_{\rm G}\to\infty$)
+2. 相関長が発散して($\xi\to\infty$), エネルギーギャップが消える($E_{\rm G}\to0$)
